@@ -100,7 +100,7 @@ minúsculas y la búsqueda insensible a mayúsculas y minúsculas. Agregar este
 campo causará errores del compilador porque aún no estamos inicializando este
 campo en ningún lugar:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,ignore,does_not_compile
 {{#rustdoc_include ../listings/ch12-an-io-project/listing-12-22/src/lib.rs:here}}

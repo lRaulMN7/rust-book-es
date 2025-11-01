@@ -212,7 +212,7 @@ función asociada llamada `square` que tendría un parámetro de dimensión y lo
 usaría como ancho y alto, de modo que sea más fácil crear un `Rectangle`
 cuadrado en lugar de tener que especificar el mismo valor dos veces:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Nombre de archivo: src/main.rs</span>
 
 ```rust
 {{#rustdoc_include ../listings/ch05-using-structs-to-structure-related-data/no-listing-03-associated-functions/src/main.rs:here}}

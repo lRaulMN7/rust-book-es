@@ -37,7 +37,7 @@ cualquier perfil que desees personalizar, anularás cualquier subconjunto de los
 valores predeterminados. Por ejemplo, aquí están los valores predeterminados
 para la configuración `opt-level` para los perfiles `dev` y `release`:
 
-<span class="filename">Filename: Cargo.toml</span>
+<span class="filename">Nombre de archivo: Cargo.toml</span>
 
 ```toml
 [profile.dev]
@@ -64,7 +64,7 @@ Puedes anular un ajuste predeterminado agregando un valor diferente para él en
 perfil de desarrollo, podemos agregar estas dos líneas al archivo *Cargo.toml*
 del proyecto:
 
-<span class="filename">Filename: Cargo.toml</span>
+<span class="filename">Nombre de archivo: Cargo.toml</span>
 
 ```toml
 [profile.dev]

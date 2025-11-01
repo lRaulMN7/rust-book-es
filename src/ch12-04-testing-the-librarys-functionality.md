@@ -204,7 +204,7 @@ Ahora que la función `search` funciona y está probada, necesitamos llamar a
 `config.query` y el `contents` que `run` lee del archivo a la función `search`.
 Luego, `run` imprimirá cada línea devuelta por `search`:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,ignore
 {{#rustdoc_include ../listings/ch12-an-io-project/no-listing-02-using-search-in-run/src/lib.rs:here}}

@@ -46,7 +46,7 @@ una nueva asignación.
 
 Abre tu proyecto I/O en _src/main.rs_, el cual debería verse así:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Nombre de archivo: src/main.rs</span>
 
 ```rust,ignore
 {{#rustdoc_include ../listings/ch13-functional-features/listing-12-24-reproduced/src/main.rs:ch13}}

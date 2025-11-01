@@ -35,7 +35,7 @@ corregir automáticamente las advertencias del compilador que tienen una forma
 clara de corregir el problema que es probablemente lo que desea. Es probable que
 haya visto advertencias del compilador antes. Por ejemplo, considere este código:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Nombre de archivo: src/main.rs</span>
 
 ```rust
 fn main() {
@@ -76,7 +76,7 @@ $ cargo fix
 Cuando volvemos a mirar *src/main.rs*, veremos que `cargo fix` ha cambiado el
 código:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Nombre de archivo: src/main.rs</span>
 
 ```rust
 fn main() {

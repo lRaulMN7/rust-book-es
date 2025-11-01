@@ -33,7 +33,7 @@ versión del algoritmo de resolución de Cargo en nuestro workspace configurando
 `resolver` en `"3"`. Especificando la ruta al paquete con nuestro *crate*
 binario; en este caso, esa ruta es *adder*:
 
-<span class="filename">Filename: Cargo.toml</span>
+<span class="filename">Nombre de archivo: Cargo.toml</span>
 
 ```toml
 {{#include ../listings/ch14-more-about-cargo/no-listing-01-workspace/add/Cargo.toml}}
@@ -112,7 +112,7 @@ $ cargo new add_one --lib
 Cambie el *Cargo.toml* de nivel superior para especificar la ruta
 *add_one* en la lista de `members`:
 
-<span class="filename">Filename: Cargo.toml</span>
+<span class="filename">Nombre de archivo: Cargo.toml</span>
 
 ```toml
 {{#include ../listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/Cargo.toml}}
@@ -136,7 +136,7 @@ Tu directorio *add* debería tener estos directorios y archivos:
 
 En el archivo *add_one/lib.rs*, agreguemos una función `add_one`:
 
-<span class="filename">Filename: add_one/src/lib.rs</span>
+<span class="filename">Nombre de archivo: add_one/src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/add_one/src/lib.rs}}
@@ -146,7 +146,7 @@ Ahora podemos hacer que el paquete `adder` con nuestro binario dependa del
 paquete `add_one` con nuestra biblioteca. Primero, necesitaremos agregar una
 dependencia de ruta en *adder/Cargo.toml*.
 
-<span class="filename">Filename: adder/Cargo.toml</span>
+<span class="filename">Nombre de archivo: adder/Cargo.toml</span>
 
 ```toml
 {{#include ../listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/adder/Cargo.toml:6:7}}
@@ -223,7 +223,7 @@ sí. Agreguemos el *crate* `rand` a la sección `[dependencies]` en el archivo
 * ch07-04-bringing-paths-into-scope-with-the-use-keyword.md
 -->
 
-<span class="filename">Filename: add_one/Cargo.toml</span>
+<span class="filename">Nombre de archivo: add_one/Cargo.toml</span>
 
 ```toml
 {{#include ../listings/ch14-more-about-cargo/no-listing-03-workspace-with-external-dependency/add/add_one/Cargo.toml:6:7}}
@@ -298,7 +298,7 @@ como versiones compatibles de `rand`, ahorrándonos espacio y asegurando que los
 Para otra mejora, agreguemos una prueba de la función `add_one::add_one` dentro
 del *crate* `add_one`:
 
-<span class="filename">Filename: add_one/src/lib.rs</span>
+<span class="filename">Nombre de archivo: add_one/src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch14-more-about-cargo/no-listing-04-workspace-with-tests/add/add_one/src/lib.rs}}

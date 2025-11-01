@@ -444,7 +444,7 @@ de código de manejo de errores aquí! Corrijamos ese problema ahora.
 Comprobaremos los errores y los manejaremos usando una técnica similar a la que
 usamos con `Config::build` en el Listado 12-10, pero con una ligera diferencia:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Nombre de archivo: src/main.rs</span>
 
 ```rust,ignore
 {{#rustdoc_include ../listings/ch12-an-io-project/no-listing-01-handling-errors-in-main/src/main.rs:here}}

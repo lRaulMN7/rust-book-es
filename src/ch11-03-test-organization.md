@@ -35,7 +35,7 @@ para especificar que no deberían ser incluidos en el resultado compilado.
 Recuerda que cuando generamos el nuevo proyecto `adder` en la primera sección
 de este capítulo, Cargo generó este código para nosotros:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/listing-11-01/src/lib.rs}}
@@ -191,7 +191,7 @@ función llamada `setup` en él, podemos agregar algo de código a `setup` que
 queremos llamar desde múltiples funciones de test en múltiples archivos de
 test:
 
-<span class="filename">Filename: tests/common.rs</span>
+<span class="filename">Nombre de archivo: tests/common.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-12-shared-test-code-problem/tests/common.rs}}
@@ -237,7 +237,7 @@ Después de haber creado _tests/common/mod.rs_, podemos usarlo desde cualquier
 archivo de test de integración como un módulo. Aquí hay un ejemplo de llamar a
 la función `setup` desde el test `it_adds_two` en _tests/integration_test.rs_:
 
-<span class="filename">Filename: tests/integration_test.rs</span>
+<span class="filename">Nombre de archivo: tests/integration_test.rs</span>
 
 ```rust,ignore
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-13-fix-shared-test-code-problem/tests/integration_test.rs}}

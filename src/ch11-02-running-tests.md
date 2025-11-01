@@ -167,7 +167,7 @@ que puede que quieras excluirlos en la mayoría de las ejecuciones de
 ejecutar, puedes anotar los tests que consumen mucho tiempo usando el atributo
 `ignore` para excluirlos, como se muestra aquí:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-11-ignore-a-test/src/lib.rs:here}}

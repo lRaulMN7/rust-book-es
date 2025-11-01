@@ -129,7 +129,7 @@ Comenzaremos a personalizar el test para nuestras propias necesidades. Primero
 cambiaremos el nombre de la función `it_works` a un nombre diferente, como
 `exploration`, así:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-01-changing-test-name/src/lib.rs}}
@@ -252,7 +252,7 @@ expresión debería devolver `true`, por lo que nuestro test debería pasar.
 ¡Pasó! Ahora agreguemos otro test, esta vez afirmando que un rectángulo más
 pequeño no puede contener un rectángulo más grande:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-02-adding-another-rectangle-test/src/lib.rs:here}}
@@ -389,7 +389,7 @@ Por ejemplo, supongamos que tenemos una función que saluda a las personas por
 nombre y queremos probar que el nombre que pasamos a la función aparece en el
 output:
 
-<span class="filename">Filename: src/lib.rs</span>
+<span class="filename">Nombre de archivo: src/lib.rs</span>
 
 ```rust,noplayground
 {{#rustdoc_include ../listings/ch11-writing-automated-tests/no-listing-05-greeter/src/lib.rs}}

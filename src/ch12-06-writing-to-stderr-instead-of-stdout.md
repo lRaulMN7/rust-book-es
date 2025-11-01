@@ -86,7 +86,7 @@ $ cargo run -- to poem.txt > output.txt
 No veremos ningún output en la terminal, y *output.txt* contendrá nuestros
 resultados:
 
-<span class="filename">Filename: output.txt</span>
+<span class="filename">Nombre de archivo: output.txt</span>
 
 ```text
 Are you nobody, too?
