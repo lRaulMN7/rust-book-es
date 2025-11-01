@@ -213,13 +213,13 @@ definimos en el listado 10-6 con un método llamado `x` implementado en él.
 </Listing>
 
 Aquí, hemos definido un método llamado `x` en `Point<T>` que devuelve una
-referencia a la data en el campo `x`.
+referencia al dato en el campo `x`.
 
 Ten en cuenta que tenemos que declarar `T` justo después de `impl` para que
 podamos usar `T` para especificar que estamos implementando métodos en el tipo
 `Point<T>`. Al declarar `T` como un tipo genérico después de `impl`, Rust puede
 identificar que el tipo en los corchetes angulares en `Point` es un tipo
-generic en lugar de un tipo concreto. Podríamos haber elegido un nombre
+genérico en lugar de un tipo concreto. Podríamos haber elegido un nombre
 diferente para este parámetro genérico que el parámetro genérico declarado en la
 definición del struct, pero usar el mismo nombre es convencional. Los métodos
 escritos dentro de un `impl` que declara el tipo genérico se definirán en
